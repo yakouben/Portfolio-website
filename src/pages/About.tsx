@@ -24,15 +24,15 @@ const About = () => {
   const y1 = useTransform(scrollY, [0, vh * 0.4], [80, 0]);
   const opacity1 = useTransform(scrollY, [0, vh * 0.3], [0, 1]);
 
-  // Section 2: Education
+  // Section 2: Vision
   const y2 = useTransform(scrollY, [vh * 0.1, vh * 0.5], [80, 0]);
   const opacity2 = useTransform(scrollY, [vh * 0.1, vh * 0.4], [0, 1]);
 
-  // Section 3: Experience
+  // Section 3: Expertise
   const y3 = useTransform(scrollY, [vh * 0.2, vh * 0.6], [80, 0]);
   const opacity3 = useTransform(scrollY, [vh * 0.2, vh * 0.5], [0, 1]);
 
-  // Section 4: Focus
+  // Section 4: Pillars
   const y4 = useTransform(scrollY, [vh * 0.3, vh * 0.7], [80, 0]);
   const opacity4 = useTransform(scrollY, [vh * 0.3, vh * 0.6], [0, 1]);
 
@@ -46,68 +46,74 @@ const About = () => {
           style={{ y: y1, opacity: opacity1 }}
         >
           <h2 className="font-sans text-xs md:text-sm font-bold uppercase tracking-widest">
-            Background & Data
+            Notre Vision
           </h2>
         </motion.div>
 
         {/* Right Column: The Data List */}
         <div className="md:col-span-9 lg:col-span-9 flex flex-col gap-10 md:gap-12">
 
-          {/* 01. EDUCATION */}
+          {/* 01. VISION */}
           <motion.div style={{ y: y2, opacity: opacity2 }} className="flex flex-col gap-2">
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
-              01. Education
+              01. Qui Sommes-Nous
             </h3>
             <div className="flex flex-col">
               <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Indian Institute of Information Technology, Kottayam
+                JP & HP Consulting
               </p>
               <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                B.Tech, Computer Science & Engineering (2023–2027)
+                Un hub stratégique 360° dédié à la Direction Commerciale et Excellence Opérationnelle
               </p>
             </div>
           </motion.div>
 
-          {/* 02. EXPERIENCE */}
+          {/* 02. EXPERTISE */}
           <motion.div style={{ y: y3, opacity: opacity3 }} className="flex flex-col gap-2">
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
-              02. Experience
+              02. Expertise
             </h3>
 
             <div className="flex flex-col gap-6">
-              {/* Job 1 */}
+              {/* Expertise 1 */}
               <div>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                  aiRender Technologies
+                  Retail & Pharma
                 </p>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  Full Stack Developer (May 2025 – May 2026)
+                  Beauté, Soin & Wellness
                 </p>
               </div>
 
-              {/* Job 2 */}
+              {/* Expertise 2 */}
               <div>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                  Infosys Springboard
+                  Digital & Social
                 </p>
                 <p className="font-sans text-xl md:text-2xl lg:text-3xl font-normal text-black/70 leading-tight tracking-tight">
-                  Web Development Intern (Oct 2024 – Dec 2024)
+                  Médias & Activation OOH
                 </p>
               </div>
             </div>
           </motion.div>
 
-          {/* 03. FOCUS */}
+          {/* 03. PILLARS */}
           <motion.div style={{ y: y4, opacity: opacity4 }} className="flex flex-col gap-2">
             <h3 className="font-sans text-xs md:text-sm font-bold uppercase tracking-wide opacity-100 mb-1">
-              03. Focus
+              03. Approche 360°
             </h3>
-            <ul className="flex flex-col">
+            <ul className="flex flex-col gap-3">
               <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Software Engineering Architecture
+                01. Sell-In — Implantation & Réseau
               </li>
               <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
-                Artificial Intelligence & Process Automation
+                02. Sell-Out — Formation & Activation
+              </li>
+              <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
+                03. Digital — Conversion & Visibilité
+              </li>
+              <li className="font-sans text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight">
+                04. Médias — Indoor & Outdoor
               </li>
             </ul>
           </motion.div>

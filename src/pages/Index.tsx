@@ -39,9 +39,9 @@ const CursorFollower = () => {
 
 const BrandLogo = () => (
   <div className="fixed top-6 left-6 md:top-8 md:left-10 z-50 mix-blend-difference">
-    <h1 className="font-sans font-black text-2xl md:text-4xl tracking-tighter text-white flex items-start">
-      MAHESH
-      <span className="text-xs md:text-lg font-medium ml-1 -mt-1 md:-mt-2">®</span>
+    <h1 className="font-sans font-black text-xl md:text-3xl tracking-tighter text-white flex items-start">
+      JP & HP
+      <span className="text-xs md:text-sm font-medium ml-1 -mt-1 md:-mt-2">Consulting</span>
     </h1>
   </div>
 );
@@ -59,17 +59,15 @@ const AvailabilityBadge = () => (
       <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-400" />
     </span>
     <span className="font-sans font-black text-[9px] tracking-[0.25em] uppercase text-white">
-      Available for work
+      Parlons de votre projet
     </span>
   </motion.div>
 );
 
 const SocialStrip = () => {
   const socials = [
-    { label: "GitHub", href: "https://github.com/MAHESHPPAI" },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/mahesh-p-pai-b0987b2a8/" },
-    { label: "Instagram", href: "https://www.instagram.com/mahesh_3.14_/" },
-    { label: "Email", href: "mailto:maheshpailinked@gmail.com" },
+    { label: "Email", href: "mailto:contact@jphp-consulting.fr" },
+    { label: "LinkedIn", href: "https://linkedin.com/company/jphp-consulting" },
   ];
   return (
     <motion.div
@@ -137,10 +135,8 @@ const SpinningCTA = () => (
 
 const MobileSocialStrip = () => {
   const socials = [
-    { label: "Github", icon: Github, href: "https://github.com/MAHESHPPAI" },
-    { label: "LinkedIn", icon: Linkedin, href: "https://www.linkedin.com/in/mahesh-p-pai-b0987b2a8/" },
-    { label: "Instagram", icon: Instagram, href: "https://www.instagram.com/mahesh_3.14_/" },
-    { label: "Email", icon: Mail, href: "mailto:maheshpailinked@gmail.com" },
+    { label: "Email", icon: Mail, href: "mailto:contact@jphp-consulting.fr" },
+    { label: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/company/jphp-consulting" },
   ];
   return (
     <motion.div
@@ -206,13 +202,13 @@ const Index = () => {
           >
             <a href="#contact" className="group relative overflow-hidden border border-white/30 px-5 py-3 flex items-center gap-3 hover:border-white transition-colors duration-500 w-fit mb-6 md:hidden">
               <span className="absolute inset-0 bg-white translate-x-[-101%] group-hover:translate-x-0 transition-transform duration-500 ease-in-out" />
-              <span className="relative font-sans font-black text-[10px] tracking-[0.25em] uppercase text-white group-hover:text-black transition-colors duration-300 z-10">Get in touch</span>
+              <span className="relative font-sans font-black text-[10px] tracking-[0.25em] uppercase text-white group-hover:text-black transition-colors duration-300 z-10">Nous contacter</span>
               <svg className="relative w-3 h-3 text-white group-hover:text-black transition-colors duration-300 z-10" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <path d="M1 6h10M6 1l5 5-5 5" />
               </svg>
             </a>
             <h1 className="font-sans font-bold text-7xl md:text-8xl lg:text-[9rem] xl:text-[11rem] leading-[0.85] tracking-tighter text-white uppercase text-left">
-              Driven<br />by logic
+              Direction<br />Commerciale
             </h1>
           </motion.div>
         </div>
@@ -226,7 +222,7 @@ const Index = () => {
           >
             <div className="w-12 h-[2px] bg-white mb-6 md:hidden" />
             <p className="font-sans text-xs md:text-sm font-medium text-white leading-relaxed tracking-wide uppercase text-left">
-              Building robust software, automating the complex and focused on transforming static systems into intelligent ones.
+              L&apos;écosystème commercial 360° pour transformer votre marque en leader du marché. Sell-In, Sell-Out & Digital.
             </p>
           </motion.div>
         </div>

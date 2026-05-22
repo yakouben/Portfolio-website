@@ -50,13 +50,13 @@ const Footer = () => {
             Identification
           </h3>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed">
-            Mahesh P Pai
+            JP & HP Consulting
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
-            Full Stack Engineer
+            Direction Commerciale & Excellence Opérationnelle
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
-            Kerala, India [Lat: 9.7, Long: 76.5]
+            Paris, France [Interventions Nationales]
           </p>
         </motion.div>
 
@@ -67,13 +67,13 @@ const Footer = () => {
           </h3>
           <div className="flex flex-col gap-2">
             <a
-              href="mailto:maheshpailinked@gmail.com"
+              href="mailto:contact@jphp-consulting.fr"
               className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"
             >
               Email ↗
             </a>
             <a
-              href="https://www.linkedin.com/in/mahesh-p-pai-b0987b2a8/"
+              href="https://linkedin.com/company/jphp-consulting"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"
@@ -81,12 +81,10 @@ const Footer = () => {
               LinkedIn ↗
             </a>
             <a
-              href="https://github.com/MAHESHPPAI"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#approche"
               className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide hover:underline underline-offset-4 decoration-1 w-fit flex items-center gap-1"
             >
-              GitHub ↗
+              Approche ↗
             </a>
           </div>
         </motion.div>
@@ -95,22 +93,22 @@ const Footer = () => {
         <motion.div variants={itemVariants} className="flex flex-col h-full justify-between">
           <div className="flex flex-col gap-1">
             <h3 className="font-sans text-xs font-bold uppercase tracking-widest mb-4 text-white/80">
-              Colophon
+              Services
             </h3>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              Built With: React / GSAP / Framer / Lenis
+              Sell-In, Sell-Out & Digital
             </p>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              Typeface: Inter / Halvetica
+              Médias & Activation OOH
             </p>
             <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide text-white/60">
-              Deployed On: Vercel
+              Approche Globale 360°
             </p>
           </div>
 
           <div className="mt-8 md:mt-0">
             <p className="font-sans text-xs md:text-sm font-bold uppercase tracking-widest text-white">
-              2026
+              2025
             </p>
           </div>
         </motion.div>
@@ -121,10 +119,10 @@ const Footer = () => {
         style={{ opacity: textOpacity, scale: textScale }}
         className="w-full flex-1 flex flex-col justify-center items-center overflow-hidden select-none pb-4"
       >
-        <h1 className="font-sans font-black text-[23vw] leading-[0.8] text-white uppercase tracking-tighter flex items-start">
-          Mahesh
+        <h1 className="font-sans font-black text-[20vw] leading-[0.8] text-white uppercase tracking-tighter flex items-start">
+          JP & HP
           <span className="text-xl md:text-4xl lg:text-6xl font-medium mt-[2vw] ml-1 opacity-60">
-            ®
+            ·
           </span>
         </h1>
       </motion.div>

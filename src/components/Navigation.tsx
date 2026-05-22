@@ -13,17 +13,18 @@ interface SocialItem {
 }
 
 const navItems: NavItem[] = [
-  { label: "About", href: "#about", number: "01" },
-  { label: "Work", href: "#work", number: "02" },
-  { label: "Philosophy", href: "#philosophy", number: "03" },
-  { label: "Contact", href: "#contact", number: "04" },
+  { label: "Approche", href: "#approche", number: "01" },
+  { label: "Sell-In", href: "#sellin", number: "02" },
+  { label: "Sell-Out", href: "#sellout", number: "03" },
+  { label: "Digital", href: "#digital", number: "04" },
+  { label: "Médias", href: "#media", number: "05" },
+  { label: "Équipe", href: "#experts", number: "06" },
+  { label: "Contact", href: "#contact", number: "07" },
 ];
 
 const socialItems: SocialItem[] = [
-  { label: "GitHub", href: "https://github.com/MAHESHPPAI" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/mahesh-p-pai-b0987b2a8/" },
-  { label: "Instagram", href: "https://www.instagram.com/mahesh_3.14_/" },
-  { label: "Email", href: "mailto:maheshpailinked@gmail.com" },
+  { label: "Email", href: "mailto:contact@jphp-consulting.fr" },
+  { label: "LinkedIn", href: "https://linkedin.com/company/jphp-consulting" },
 ];
 
 const ease = [0.76, 0, 0.24, 1] as [number, number, number, number];
@@ -203,7 +204,7 @@ const Navigation = () => {
               exit={{ opacity: 0, transition: { duration: 0.6 } }}
               className="text-xs text-white/20 font-mono tracking-widest mt-8 md:mt-0 md:self-end"
             >
-              © 2026 MAHESH
+              © 2025 JP & HP Consulting
             </motion.p>
           </motion.div>
         )}
